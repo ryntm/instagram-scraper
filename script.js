@@ -57,8 +57,8 @@ async function instaScraper(list) {
         // await Promise.all([button.click(), page.waitForNavigation({waitUntil:'networkidle2'})])
         await page.waitForTimeout(5000)
         // await page.waitForNavigation({waitUntil: 'networkidle2'});
-        await page.type('input[name=username]', 'ryancovertam@gmail.com', { delay: 30 })
-        await page.type('input[name=password', 'PasswordforPodcast', { delay: 30 })
+        await page.type('input[name=username]', 'EMAIL', { delay: 30 })
+        await page.type('input[name=password', 'PASSWORD', { delay: 30 })
         await page.click('button[type=submit');
         // await page.waitForTimeout(5000)
         await page.waitForTimeout(7000)
