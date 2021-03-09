@@ -116,8 +116,8 @@ async function startBrowser2() {
     // await Promise.all([button.click(), page.waitForNavigation({waitUntil:'networkidle2'})])
     await page2.waitForTimeout(5000)
     // await page.waitForNavigation({waitUntil: 'networkidle2'});
-    await page2.type('input[name=username]', 'ryancovertam@gmail.com', { delay: 30 })
-    await page2.type('input[name=password', 'PasswordforPodcast', { delay: 30 })
+    await page2.type('input[name=username]', 'EMAIL', { delay: 30 })
+    await page2.type('input[name=password', 'PASSWORD', { delay: 30 })
     await page2.click('button[type=submit');
 
     async function taylorhourlyWatch() {
